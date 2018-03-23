@@ -80,3 +80,17 @@ sudo systemctl start httpd
 exit
 sudo vi /etc/httpd/conf.d/laravel.conf
 exit
+sudo vi /etc/httpd/conf.d/laravel.conf
+git add .
+history
+git init
+git add .
+git commit -m "Laravel Install"
+git remote add origin https://github.com/m-mizukoshi/laravel_tutorial_1803.git
+git push -u origin master
+sudo systemctl start httpd
+exit
+sudo systemctl start httpd
+vi .gitgnore
+git .gitgnore
+exit
